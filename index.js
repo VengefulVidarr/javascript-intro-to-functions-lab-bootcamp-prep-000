@@ -4,7 +4,7 @@ function shout(string) {
   return string.toUpperCase()
 }
 
-//Needs Spy Added 
+//Needs Spy Added
 function logShout(string){
   console.log(string);
 }
