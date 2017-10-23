@@ -4,7 +4,7 @@ function shout(string) {
   return string.toUpperCase()
 }
 
-//Needs Spy Added
+//Needs Spy Added 
 function logShout(string){
   console.log(string);
 }
@@ -21,6 +21,6 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string){
   if (`$(string)` === "hello") {
-    console.log("I can't hear you!")
+    console.log("I can\'t hear you!")
   }
 }
