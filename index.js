@@ -4,7 +4,7 @@ function shout(string) {
 
 function logShout(string) {
   if (string.toUpperCase()) {
-    console.log(string);
+    console.log(string.toUpperCase());
   }
 }
 
