@@ -4,7 +4,7 @@ function shout(string) {
 
 function logShout(string) {
   if (string.toUpperCase) {
-    console.log('HELLO').andCallThrough;
+    console.log('HELLO').spyOn;
   }
 }
 
