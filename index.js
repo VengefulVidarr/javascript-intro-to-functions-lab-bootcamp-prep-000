@@ -18,17 +18,6 @@ function logWhisper(string) {
   }
 }
 
-//var uppercase = 'HELLO!'
-//uppercase.toUpperCase() === uppercase // true
-
-//var lowercase = 'hello!'
-//lowercase.toLowerCase === lowercase // true
-
-//var mixedCase = 'Hi there!'
-//mixedcase.toLowerCase() === mixedCase // false
-//mixedcase.toUpperCase() === mixedCase // false
-
-
 function sayHiToGrandma(string) {
   if (string === 'hello') {
     return "I can\'t hear you!"
