@@ -3,7 +3,9 @@ function shout(string) {
 }
 
 function logShout(string) {
-  console.log(string.toUpperCase);
+  if (string.toUpperCase) {
+    console.log(string);
+  }
 }
 
 function whisper(string) {
@@ -11,7 +13,9 @@ function whisper(string) {
 }
 
 function logWhisper(string) {
-  console.log(string.toLowerCase);
+  if (string.toLowerCase) {
+    console.log(string);
+  }
 }
 
 function spyOn(string) {
