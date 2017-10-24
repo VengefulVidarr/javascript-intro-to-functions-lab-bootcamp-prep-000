@@ -8,6 +8,6 @@ function whisper(string) {
 
 function sayHiToGrandma(string) {
   if (string = `HELLO!`) {
-    return console.log("YES INDEED!");
+    return "YES INDEED!"
   }
 }
