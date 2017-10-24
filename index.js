@@ -3,9 +3,7 @@ function shout(string) {
 }
 
 function logShout(string) {
-  if (string === "HELLO"){
       console.log(string);
-  }
 }
 
 function whisper(string) {
@@ -13,7 +11,7 @@ function whisper(string) {
 }
 
 function logWhisper(string) {
-  if (string === "hello") {
+  if (string.toLowerCase) {
     console.log(string);
   }
 }
