@@ -3,7 +3,9 @@ function shout(string) {
 }
 
 function logShout(string) {
-  console.log(string);
+  if (string.toUpperCase) {
+    console.log(string);
+  }
 }
 
 function whisper(string) {
