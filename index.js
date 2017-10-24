@@ -2,8 +2,20 @@ function shout(string) {
     return string.toUpperCase();
 }
 
+funtion logShout(string) {
+  if (string.toUpperCase) {
+    console.log('HELLO').andCallThrough;
+  }
+}
+
 function whisper(string) {
     return string.toLowerCase();
+}
+
+function logWhisper(string) {
+  if (string.toLowerCase) {
+    console.log(string);
+  }
 }
 
 function spyOn(string) {
