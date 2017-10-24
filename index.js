@@ -2,7 +2,7 @@ function shout(string) {
     return string.toUpperCase();
 }
 
-funtion logShout(string) {
+fucntion logShout(string) {
   if (string.toUpperCase) {
     console.log('HELLO').andCallThrough;
   }
