@@ -1,4 +1,4 @@
-var name = 'hello', 'HELLO!', 'Hi there'
+var name = 'hello'
 
 //Yells
 function shout(string) {
