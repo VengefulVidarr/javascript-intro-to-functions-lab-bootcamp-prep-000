@@ -33,6 +33,6 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   if (string.toUpperCase) {
-    console.log("YES INDEED!");
+    return console.log("YES INDEED!");
   }
 }
