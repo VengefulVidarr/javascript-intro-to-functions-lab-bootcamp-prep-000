@@ -3,7 +3,7 @@ function shout(string) {
 }
 
 function logShout(string) {
-  if (string.toUpperCase) {
+  if (string.toUpperCase()) {
     console.log(string);
   }
 }
@@ -13,7 +13,7 @@ function whisper(string) {
 }
 
 function logWhisper(string) {
-  if (string.toLowerCase) {
+  if (string.toLowerCase()) {
     console.log(string);
   }
 }
