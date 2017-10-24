@@ -4,6 +4,8 @@ var toLowerCase = 'hello!'
 
 var mixedCase = 'Hi there!'
 
+module.exports = {toUpperCase, toLowerCase, mixedCase}
+
 //Yells
 function shout(string) {
   console.log (string);
