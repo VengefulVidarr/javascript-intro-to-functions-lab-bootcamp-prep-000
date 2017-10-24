@@ -13,9 +13,7 @@ function whisper(string) {
 }
 
 function logWhisper(string) {
-  if (string === 'hello') {
     console.log(string);
-  }
 }
 
 function sayHiToGrandma(string) {
