@@ -1,9 +1,13 @@
 function shout(string) {
-  console.log(string);
-  return string.toUpperCase();
+    return string.toUpperCase();
 }
 
 function whisper(string) {
-  console.log(string);
-  return string.toLowerCase();
+    return string.toLowerCase();
+}
+
+function logShout(string) {
+  if (string.toUpperCase()){
+    function() {const spy = expect.spyOn(console, 'log').andCallThrough()}
+  }
 }
