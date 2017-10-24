@@ -13,7 +13,7 @@ function shout(string) {
 
 //Needs Spy Added
 function logShout(string){
-  console.log(string);
+  console.log(string).toUpperCase;
   function spy(string){
     if (`$string` === string.toUpperCase)
     spyon(console, `log`).andCallThrough
