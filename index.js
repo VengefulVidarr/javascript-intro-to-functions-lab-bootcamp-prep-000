@@ -1,7 +1,7 @@
 //Yells
 function shout(string) {
   console.log (string).toUpperCase;
-  
+
 }
 
 //Needs Spy Added
