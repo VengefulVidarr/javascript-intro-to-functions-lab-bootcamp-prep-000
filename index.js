@@ -1,10 +1,7 @@
-var name = 'hello'
-
 //Yells
 function shout(string) {
-  console.log (string);
-  return string.toUpperCase()
-
+  console.log (string).toUpperCase;
+  
 }
 
 //Needs Spy Added
