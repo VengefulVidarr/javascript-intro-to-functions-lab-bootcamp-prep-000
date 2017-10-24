@@ -4,8 +4,6 @@ var toLowerCase = 'hello!'
 
 var mixedCase = 'Hi there!'
 
-module.exports = {toUpperCase, toLowerCase, mixedCase}
-
 //Yells
 function shout(string) {
   console.log (string);
@@ -16,12 +14,12 @@ function shout(string) {
 //Needs Spy Added
 function logShout(string){
   console.log(string);
+  function spy(string){
+    if (`$string` === string.toUpperCase)
+    spyon(console, `log`).andCallThrough
   }
-
-function spy(string){
-  if (`$string` === string.toUpperCase)
-  spyon(console, `log`).andCallThrough
 }
+
 
 //whisper
 function whisper(string) {
