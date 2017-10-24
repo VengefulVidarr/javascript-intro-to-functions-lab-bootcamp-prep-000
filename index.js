@@ -11,9 +11,7 @@ function whisper(string) {
 }
 
 function logWhisper(string) {
-  if (string.toLowerCase) {
-    console.log(string);
-  }
+  console.log(string);
 }
 
 function spyOn(string) {
