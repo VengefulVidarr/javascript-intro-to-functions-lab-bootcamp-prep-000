@@ -6,7 +6,7 @@ function whisper(string) {
     return string.toLowerCase();
 }
 
-function logWhisper(string) {
+function spyOn(string) {
   console.log(string);
 }
 
@@ -22,13 +22,13 @@ function logWhisper(string) {
 
 
 function sayHiToGrandma(string) {
-  if (lowercase) {
+  if (string.toLowerCase) {
     return "I can\'t hear you!"
   }
-  else if (uppercase){
+  else if (string.toUpperCase){
     return "YES INDEED!"
   }
-  else if (mixedCase) {
+  else if (string === `I love you, Grandma.`) {
     return "I love you, too."
   }
 }
