@@ -16,10 +16,6 @@ function logWhisper(string) {
   }
 }
 
-function spyOn(string) {
-  console.log(string);
-}
-
 //var uppercase = 'HELLO!'
 //uppercase.toUpperCase() === uppercase // true
 
