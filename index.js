@@ -3,7 +3,7 @@ function shout(string) {
 }
 
 function logShout(string) {
-  if (string === 'HELLO') {
+  if (string.toUpperCase()) {
     console.log(string);
   }
 }
@@ -13,7 +13,9 @@ function whisper(string) {
 }
 
 function logWhisper(string) {
+  if (string.toLowerCase()) {
     console.log(string);
+  }
 }
 
 function sayHiToGrandma(string) {
