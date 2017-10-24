@@ -3,9 +3,7 @@ function shout(string) {
 }
 
 function logShout(string) {
-  if (string) {
-    console.log(string);
-  }
+      console.log(string);
 }
 
 function whisper(string) {
