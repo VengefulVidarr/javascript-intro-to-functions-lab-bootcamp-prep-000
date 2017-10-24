@@ -6,7 +6,8 @@ function whisper(string) {
     return string.toLowerCase();
 }
 
-function logShout(string) {
-  if (string.toUpperCase()){
-    const spy = expect.spyOn(console, 'log').andCallThrough()}
+function sayHiToGrandma(string) {
+  if (string = `HELLO!`) {
+    return console.log("YES INDEED!");
   }
+}
