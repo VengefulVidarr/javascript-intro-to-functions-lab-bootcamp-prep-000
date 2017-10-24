@@ -1,3 +1,9 @@
+var toUpperCase = 'HELLO!'
+
+var toLowerCase = 'hello!'
+
+var mixedCase = 'Hi there!'
+
 //Yells
 function shout(string) {
   console.log (string);
