@@ -2,11 +2,17 @@
 function shout(string) {
   console.log (string);
   return string.toUpperCase()
+  
 }
 
 //Needs Spy Added
 function logShout(string){
   console.log(string);
+  }
+
+function spy(string){
+  if (`$string` === string.toUpperCase)
+  console.log().andCallThrough
 }
 
 //whisper
