@@ -10,4 +10,3 @@ function logShout(string) {
   if (string.toUpperCase()){
     const spy = expect.spyOn(console, 'log').andCallThrough()}
   }
-}
