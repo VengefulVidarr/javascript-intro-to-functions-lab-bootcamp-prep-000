@@ -13,7 +13,7 @@ before(function(done) {
 
   const html = path.resolve(__dirname, '..', 'index.html')
 
-  jsdom.env('<div></div>', [], {
+  jsdom.env(html, [], {
     src: babelResult.code,
     virtualConsole: jsdom.createVirtualConsole().sendTo(console)
   }, (err, window) => {
